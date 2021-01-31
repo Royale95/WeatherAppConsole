@@ -387,6 +387,11 @@ namespace TempData
                             Console.WriteLine($"Meteorological winter starts at {date:yyyy-MM-dd}");
                             break;
                         }
+                        else
+                        {
+                            Console.WriteLine("No meteorological winter found");
+                            break;
+                        }
                         dayCount++;
                     }
                 }
